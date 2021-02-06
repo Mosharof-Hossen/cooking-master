@@ -1,0 +1,36 @@
+body {
+    background-size: cover;
+    height: 100vh;
+}
+.container{
+    background-color: wheat;
+    padding-bottom: 20px;
+}
+.headName{
+    color: rgb(34, 34, 97);
+    text-align: center;
+    padding-top: 20px;
+}
+#image{
+    width: 100%;
+}
+#items{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap: 20px;
+}
+.singleItem{
+    border: 1px solid goldenrod;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 95%;
+}
+#mealName{
+    margin-top: 15px ;
+}
+#msg{
+    text-align: center;
+    color: red;
+    display: none;
+}
