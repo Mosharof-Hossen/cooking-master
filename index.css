@@ -3,7 +3,7 @@ body {
     height: 100vh;
 }
 .container{
-    background-color: wheat;
+    background-color: rgb(236, 177, 67);
     padding-bottom: 20px;
 }
 .headName{
@@ -16,15 +16,18 @@ body {
 }
 #items{
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(5,1fr);
     grid-row-gap: 20px;
+    margin-top: 20px
 }
 .singleItem{
-    border: 1px solid goldenrod;
-    border-radius: 20px;
-    padding: 20px;
+    border: 1px solid rgb(235, 171, 11);
+    border-radius: 10px;
+    padding: 5px;
     text-align: center;
     width: 95%;
+    background-color: aliceblue;
+    cursor: pointer;
 }
 #mealName{
     margin-top: 15px ;
@@ -33,4 +36,13 @@ body {
     text-align: center;
     color: red;
     display: none;
+    margin-bottom: 20px;
+}
+#details{
+    width: 30%;
+    background-color: rgb(199, 149, 89);
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    
 }
